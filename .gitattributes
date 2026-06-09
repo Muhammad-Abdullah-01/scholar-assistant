@@ -1,0 +1,18 @@
+# Normalize line endings automatically for text files
+* text=auto
+
+# Treat Python scripts and config files as text
+*.py text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+
+# Prevent line-ending normalization for binary files
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.pdf binary
+*.ico binary
